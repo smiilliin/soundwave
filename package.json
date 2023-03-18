@@ -1,0 +1,23 @@
+{
+  "name": "soundwave",
+  "version": "1.0.0",
+  "description": "Sound Wave",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webrtc": "^0.0.33",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "ts-loader": "^9.4.2"
+  }
+}
